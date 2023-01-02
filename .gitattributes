@@ -6,3 +6,16 @@
 *.bat eol=crlf
 *.rc eol=crlf
 *.pl linguist-language=Assembly
+METADATA filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+Android.bp filter=lfs diff=lfs merge=lfs -text
+cargo2android.json filter=lfs diff=lfs merge=lfs -text
+Cargo.toml filter=lfs diff=lfs merge=lfs -text
+LICENSE filter=lfs diff=lfs merge=lfs -text
+rustfmt.toml filter=lfs diff=lfs merge=lfs -text
+src filter=lfs diff=lfs merge=lfs -text
+tests filter=lfs diff=lfs merge=lfs -text
+LICENSE.txt filter=lfs diff=lfs merge=lfs -text
+MODULE_LICENSE_ISC filter=lfs diff=lfs merge=lfs -text
+OWNERS filter=lfs diff=lfs merge=lfs -text
+patches filter=lfs diff=lfs merge=lfs -text
